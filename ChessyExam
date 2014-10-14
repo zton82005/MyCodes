@@ -1,0 +1,13 @@
+public class ChessyProj {
+  public static void main(String[] args) {
+  
+  	double sum = 0;
+  
+    System.out.println("This Program computes for the sum of numbers 1 to 10 raised to the power of 3");
+    for (int x = 1; x <= 10; x++) {
+             System.out.println(+ x +" to the power of " + 3 + " = " + Math.pow(x,3));
+             sum = sum + Math.pow(x,3);
+        }
+    System.out.println("The sum of all numbers is: " + sum);
+  }
+}
